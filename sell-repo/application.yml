@@ -8,6 +8,13 @@ spring:
           uri: https://github.com/yingchuanfu/springcloud_config/sell-repo
           username: 245160096@qq.com
           password: Yingchuanfu1995
+    datasource:
+      driver-class-name: com.mysql.jdbc.Driver
+      username: root
+      password: yingchuanfu
+      url: jdbc:mysql://localhost/microservice_sell?characterEncoding=utf-8&useSSL=false
+    jpa:
+      show-sql: true
 eureka:
   client:
     service-url:
